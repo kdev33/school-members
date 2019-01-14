@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <meta name="description" content="Wise its an SPA that shows quotes from the wisest mens and books. Get inspired!">
+    <title>School Members Exercise</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+    <!-- Bootstrap Core Css -->
+    <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Waves Effect Css -->
+    <link href="plugins/node-waves/waves.min.css" rel="stylesheet" />
+    <!-- Animation Css -->
+    <link href="plugins/animate-css/animate.min.css" rel="stylesheet" />
+    <!-- Bootstrap Select Css -->
+    <link href="plugins/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet" />
+    <!-- Custom Css -->
+    <link href="css/style.min.css" rel="stylesheet">
+    <!--  You can choose a theme from css/themes instead of get all themes -->
+    <link href="css/themes/theme-deep-purple.min.css" rel="stylesheet" />
+    <!-- Custom kcss -->
+    <link href="css/app.css" rel="stylesheet" />
+</head>
+
+<body class="theme-deep-purple">
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="preloader">
+                <div class="spinner-layer pl-red">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <p>Please wait...</p>
+        </div>
+    </div>
+    <!-- #END# Page Loader -->
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+    <!-- #END# Overlay For Sidebars -->
+    <!-- Top Bar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 col-sm-3 col-xs-5">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <section class="content" style="margin:7rem 0px 0px 0px;">
+        <div class="container card">
+            <div class="add">
+                <div class="header">
+                    <h2>
+                        ADD MEMBER
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <div class="form-line">
+                                <input type="text" class="form-control name" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-line">
+                                <input type="email" class="form-control email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-line school">
+                                <p>SCHOOL</p>
+                                <select class="selectpicker" required="required">
+                                    <option disabled selected value>**
+                                        select an
+                                        option **</option>
+                                    <option value="1">Oxford</option>
+                                    <option value="2">MIT</option>
+                                    <option value="3">Harvard</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button type="button" class="btn btn-primary m-t-15 waves-effect">ADD</button>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- End div.add -->
+            <hr>
+            <div class="get">
+                <div class="header">
+                    <h2>
+                        GET MEMBERS
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row school text-center">
+                            <h4>SCHOOL</h4>
+                            <select class="selectpicker" required="required">
+                                <option disabled selected value>**
+                                    select an
+                                    option **</option>
+                                <option value="1">Oxford</option>
+                                <option value="2">MIT</option>
+                                <option value="3">Harvard</option>
+                            </select>
+                        </div>
+                        <div class="row text-center">
+                            <button type="button" class="btn bg-purple waves-effect">SUBMIT</button>
+                        </div>
+                        <div class="row result">
+                            <!-- Striped Rows -->
+                            <div class="row clearfix">
+                                <div class="header text-center">
+                                    <h2>
+                                        RESULTS
+                                    </h2>
+                                </div>
+                                <div class="body table-responsive">
+                                    <table class="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Name</th>
+                                                <th>Email Address</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!--   <tr>
+                                                <td>Mark</td>
+                                                <td>Otto</td>
+                                                <td>@mdo</td>
+                                            </tr> -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <!-- #END# Striped Rows -->
+                        </div>
+                    </div>
+                </div>
+            </div><!-- End div.get -->
+        </div>
+    </section>
+    <section id="footer" style=" position: fixed;left: 0;bottom: 0;width: 100%;text-align: center;">
+        <div class="text-center">
+            <p>Copyright &copy; 2018 Keiner Silva</p>
+        </div>
+    </section>
+    <!-- Jquery Core Js -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <!-- Bootstrap Core Js -->
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!-- Select Plugin Js -->
+    <script src="plugins/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <!-- Slimscroll Plugin Js -->
+    <script src="plugins/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+    <!-- Waves Effect Plugin Js -->
+    <script src="plugins/node-waves/waves.min.js"></script>
+    <!-- Bootstrap Notify Plugin Js -->
+    <script src="plugins/bootstrap-notify/bootstrap-notify.min.js" defer></script>
+    <!-- Custom Js -->
+    <script src="js/admin.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

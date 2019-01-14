@@ -1,0 +1,15 @@
+.add .school {
+    display: inline-flex;
+}
+
+.add .school p {
+    margin-right: 2rem;
+}
+
+.add .row {
+    margin-top: 2rem;
+}
+
+.get button {
+    margin-top: 2rem;
+}
