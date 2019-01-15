@@ -118,12 +118,13 @@ const getMembers = () => {
 /**
  * Initialize application
  */
-const init = () => {
+(function ()
+    {
     console.log( "%c *------ init!! ------*", "color: blue" );
 
     document.querySelector( '.add button' ).addEventListener( "click", addMember );
     document.querySelector( '.get button' ).addEventListener( "click", getMembers );
 
-}; //init
+    }
+ ()); //end init
 
-init();
